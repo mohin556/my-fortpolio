@@ -1,0 +1,75 @@
+.details{
+    display: flex;
+    height: 77vh;
+    margin-top: 4rem;
+}
+.d-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.d-name{
+    display: flex;
+    flex-direction: column;
+}
+.d-name>:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 3rem ;
+}
+.d-name>:nth-child(2){
+    color: orange;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.d-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: bolder;
+}
+.d-right{
+    flex: 1;
+
+}
+.d-button{
+    width: 9rem;
+    height: 3rem;
+}
+.i-cons{
+    display: flex;
+    gap: 0rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.i-cons>*{
+    transform: scale(0.6);
+}
+.d-right{
+    flex: 1;
+    position: relative;
+}
+.d-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.my-imahe{
+    height: 95%;
+}
+/* .d-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+.d-right>:nth-child(2){
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.d-right>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+} */
