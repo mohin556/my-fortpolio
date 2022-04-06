@@ -1,0 +1,32 @@
+.servicess{
+    display: flex;
+    
+    padding: 0 3rem 0 3rem;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome>:nth-child(1){
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+.awesome>:nth-child(2){
+    color: orange;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.awesome>:nth-child(3){
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 1rem;
+}
+.s-button{
+    width: 14rem;
+}

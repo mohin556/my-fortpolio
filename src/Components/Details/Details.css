@@ -41,12 +41,12 @@
 }
 .i-cons{
     display: flex;
-    gap: 0rem;
-    margin-top: 2rem;
+    
+    margin-top: 1rem;
     cursor: pointer;
 }
 .i-cons>*{
-    transform: scale(0.6);
+    transform: scale(0.3);
 }
 .d-right{
     flex: 1;
@@ -58,6 +58,33 @@
 }
 .my-imahe{
     height: 95%;
+}
+.float-main{
+    top: -4%;
+    left: 68%;
+}
+.float-main2{
+    top: 20rem;
+    left: 0rem;
+}
+.glacessEmoji{
+    transform: scale(0.7);
+    top: -16%;
+    left: -23%;
+    padding: 0;
+    border-radius: 50%;
+}
+.blur{
+    position: absolute;
+   
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: #edd0ff;
+    filter: blur(74px);
+    z-index: -10;
+    top: -15%;
+    left: 56%;
 }
 /* .d-right>:nth-child(1){
     transform: scale(0.69);

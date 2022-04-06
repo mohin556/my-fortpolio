@@ -7,7 +7,8 @@ margin-top: 0;
 .button{
  border-radius: 34px;
  border: none;
- color: white;
+ color: black;
+ font-weight: bolder;
  font-size: 16px;
  padding: 11px 26px 11px 26px;
  background: linear-gradient(180deg,#fdc50f 26.71%,#fb98f2 99.36%);
@@ -15,7 +16,7 @@ margin-top: 0;
 }
 .button:hover{
   background-color: white;
-  color: orange;
+  color: green;
   cursor: pointer;
   border: 1px solid orange;
 

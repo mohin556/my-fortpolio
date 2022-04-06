@@ -5,6 +5,8 @@ import linkedIn from "../../Image/linkedin.png";
 import facebook from "../../Image/fbbbb.png";
 import crown from "../../Image/crown.png";
 import thumbnil from "../../Image/image 17.png";
+import thumsup from "../../Image/thumbup.png";
+import glacessEmoji from "../../Image/glassesimoji.png";
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 const Details = () => {
     return (
@@ -26,9 +28,26 @@ const Details = () => {
             <div className="d-right"> 
              
                 <img className='my-imahe' src={thumbnil} alt="" />
-            <div>
+                <img className='glacessEmoji' src={glacessEmoji} alt="" />
+            <div className='float-main'  >
                 <FloatingDiv image={crown} text1="Web" text2="Developer" />
             </div>
+            <div className='float-main2'>
+            <FloatingDiv image={thumsup} text1="Best Design" text2="Award" />
+            </div>
+             <div className='blur ' style={{background: 'rgb(238 210 255)'}} >
+
+             </div>
+             <div  className='blur'style={{
+                 background : "#C1F5FF",
+                 top: '17rem',
+                 width:'21rem',
+                 height:'11rem',
+                 left:'-9rem'
+             }} >
+
+             </div>
+
             </div>
         </div>
     );
