@@ -1,0 +1,41 @@
+.card{
+    width: 12rem;
+    height: 14rem;
+    position: absolute;
+    border: 7px solid orange;
+    border-radius: 20px;
+    padding: 0px 28px 4rem 28px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    width: 12rem;
+    background: whitesmoke;
+
+}
+.card span:nth-child(2){
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.card span:nth-child(3){
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card>img{
+    transform: scale(0.6);
+    margin-top: -2rem;
+}
+.c-button{
+    background-color: white;
+    box-shadow: 0px 19px 60px rgb(0, 0,0, 0.08);
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    color: #5290fd;
+    padding: 10px;
+}
