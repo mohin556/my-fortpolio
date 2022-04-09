@@ -14,7 +14,7 @@ const Projects = () => {
             <span  className='heading2'> Portfolio   </span>
 
          <Swiper  
-         spaceBetween={30}
+         spaceBetween={10}
          slidesPerView={3}
          grabCursor={true}
          className="projects-slider"
