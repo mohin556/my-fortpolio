@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: -0.5rem -3.5rem;
+    margin-top: -7rem;
+    padding: 25px;
+}
+.f-content{
+   position: absolute;
+   font-size: 22px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 4rem;
+   width: 100%;
+}
+.iconss{
+    font-size: large;
+}
+
+.footer-img{
+    width: 100vw ;
+}
+.f-icons{
+   color: white;
+   
+}
+.f-icons>.iconss{
+    font-size: 55px;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
