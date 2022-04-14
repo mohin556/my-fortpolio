@@ -33,6 +33,6 @@
     font-weight: bold;
 }
 .nav-list>ul>li:hover{
-    color: orange;
+    color: #0F7BDA;
     cursor: pointer;
 }
