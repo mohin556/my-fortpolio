@@ -3,10 +3,15 @@ import './Details.css';
 import github from "../../Image/download.jpg";
 import linkedIn from "../../Image/linkedin.png";
 import facebook from "../../Image/fbbbb.png";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import crown from "../../Image/crown.png";
-import thumbnil from "../../Image/sidebag.jpg";
+import thumbnil from "../../Image/Title (3) (2) (1).png";
 import thumsup from "../../Image/thumbup.png";
 import glacessEmoji from "../../Image/glassesimoji.png";
+import blue from '../../Image/blueBg.png';
+import yellow from '../../Image/yellowBg.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import {motion} from 'framer-motion';
 const Details = () => {
@@ -23,14 +28,19 @@ const Details = () => {
              </div>
                   <button className='button d-button'>Hire Me</button>
                <div className='i-con1' >
-                 <img src={github} alt="" />
+                   <GitHubIcon />
+                   <FacebookIcon />
+                  < InstagramIcon />
+                 {/* <img src={github} alt="" />
                  <img src={linkedIn} alt="" />
-                 <img src={facebook} alt="" />
+                 <img src={facebook} alt="" /> */}
                </div>
             </div>
             <div className="d-right"> 
-             
-                <img className='my-imahe' src={thumbnil} alt="" />
+                 <img src={blue} alt="" />
+                 <img src={yellow} alt="" />
+
+                <img className='my-image' src={thumbnil} alt="" />
                 < motion.img
                 initial = {{left: '-36%'}}
                 whileInView={{left : '-24%'}}
@@ -46,7 +56,7 @@ const Details = () => {
                 <FloatingDiv image={crown} text1="Web" text2="Developer" />
             </motion.div>
             <motion.div
-            initial={{top:'9rem',left:'18rem'}}
+            initial={{top:'24rem',left:'18rem'}}
             whileInView={{left:'0rem'}}
             transition = {transition}
             

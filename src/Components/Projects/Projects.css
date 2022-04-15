@@ -20,13 +20,13 @@
 }
 .projects-slider{
     margin-top: 3rem;
-    width: 100%;
+    width: 50%;
 }
 .projects-slider .swiper-slide{
   width: 20rem;
 }
 .projects img{
-    width: 26rem;
+    width: 24rem;
     
     border-radius: 20px;
 }

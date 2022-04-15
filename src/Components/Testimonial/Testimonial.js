@@ -43,10 +43,10 @@ const Testimonial = () => {
                 <span> Clients Always get   </span>
                 <span> Exceptional work </span>
                 <span> from me </span>
-                
-            </div>
-                  <div className="blur t-blur1 " style={{background:"purple"}} >  </div>
+                <div className="blur t-blur1 "   >  </div>
                   <div className="blur t-blur2 " style={{background:"skyblue"}} >  </div>
+            </div>
+       
               <Swiper
               modules={[Pagination]}
               slidesPerView={1}
@@ -58,8 +58,8 @@ const Testimonial = () => {
                        return(
                         <SwiperSlide key = {index} >
                         <div className="t-user">
-                        <img src={user.img} alt="" />
-                        <span>{user.review}</span>
+                            <img src={user.img} alt="" />
+                            <span>{user.review}</span>
                         </div>
                     </SwiperSlide>
                        )

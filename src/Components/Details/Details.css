@@ -41,12 +41,17 @@
 }
 .i-con1{
     display: flex;
+   
     padding: 7px;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
     cursor: pointer;
+    
 }
 .i-con1>*{
-    transform: scale(0.3);
+    transform: scale(2.3);
+    margin-right: 3rem;
+    color: #0F7BDA;
 }
 .d-right{
     flex: 1;
@@ -56,8 +61,8 @@
     position: absolute;
     z-index: 1;
 }
-.my-imahe{
-    height: 95%;
+.my-image{
+    height: 65%;
 }
 .float-main{
     top: -4%;
@@ -86,7 +91,7 @@
     top: -15%;
     left: 56%;
 }
-/* .d-right>:nth-child(1){
+.d-right>:nth-child(1){
     transform: scale(0.69);
     left: -15%;
     top: -9%;
@@ -98,5 +103,6 @@
 }
 .d-right>:nth-child(3){
     transform: scale(1.4);
-    left: 28%;
-} */
+    left: 18%;
+    top: 5%;
+}
