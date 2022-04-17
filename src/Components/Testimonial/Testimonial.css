@@ -41,23 +41,24 @@
     box-shadow: 5px 5px 5px 0px lavender;
 }
 .t-user>img{
-    width: 7rem;
-    height: 7rem;
-   border-radius: 90%;
+    width: 8rem;
+    height: 8rem;
+   border-radius: 100%;
 }
 .t-user>span{
     color: gray;
     font-weight: bolder;
 }
-.testimonial.swiper{
+.testimonial .swiper{
     width: 100%;
-    height: 60%;
+    height: 70%;
 }
-.testimonial.swiper-slide{
+.testimonial .swiper-slide{
     display: flex;
     align-items: center;
    justify-content: center;
 }
-.testimonial.testimonial.swiper-pagination-bullet-active{
-    color: #0F7BDA;
-}
+/* .testimonial.swiper-pagination-bullet-active{
+    color: orange;
+} */
+/* #0F7BDA */

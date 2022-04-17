@@ -48,7 +48,7 @@ const Contact = () => {
 
 
                           <div className='blur c-blur1'
-                          style={{background: "purple"}} >
+                          >
 
                           </div>
                </form>

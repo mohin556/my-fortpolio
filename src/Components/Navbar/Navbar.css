@@ -29,7 +29,7 @@
 .nav-list > ul{
     display: flex;
     gap: 2rem;
-    margin-right: 4rem;
+    margin-right: 2rem;
     font-weight: bold;
 }
 .nav-list>ul>li:hover{
@@ -39,4 +39,12 @@
 .name{
     color: #0F7BDA;
     font-weight: bold;
+}
+.button>*{
+ text-decoration: none;
+ color: azure;
+}
+
+.li-list{
+    text-decoration: none;
 }

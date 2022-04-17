@@ -8,18 +8,29 @@ import Projects from './Components/Projects/Projects';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div className="App">
-   <Navbar />
-   <Details />
-   < Servicess />
+  
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/servicess" element={<Servicess />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/testimonials" element={<Testimonial />} />
+     
+    </Routes>
+  </BrowserRouter>,
    {/* <Works /> */}
-   <Projects />
-   <Testimonial />
-   {/* <Contact/>
-   <Footer /> */}
+ 
     </div>
   );
 }
